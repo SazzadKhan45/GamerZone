@@ -456,8 +456,8 @@ body {
         grid-template-columns: repeat(1, 1fr);
         margin-bottom: 550px;
     }
-    .pl-online{
-        padding: 0 20px;
+    .Play-Gamer-image img{
+        margin-left: -300px;
     }
 
     /* -------- Gaming apps style start here */
