@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1920px;
+    font-family: 'Work Sans', sans-serif;
+}
+/*---------- Common style start here-------------- */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pink-btn{
+
+}
