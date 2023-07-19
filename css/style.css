@@ -8,6 +8,11 @@ body {
 
 }
 
+.container {
+    width: 1370px;
+    margin: 0 auto;
+}
+
 /*---------- Common style start here-------------- */
 
 
@@ -39,7 +44,7 @@ body {
 /* ---------Navigation style start here */
 .nav-container {
     background-color: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
     margin-bottom: 10px;
 }
 
@@ -230,13 +235,14 @@ body {
 }
 
 
-.card{
+.card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     margin-top: 48px;
 }
-.card-image img{
+
+.card-image img {
     width: 100%;
 }
 
@@ -244,6 +250,116 @@ body {
     color: #534C64;
     margin-top: 15px;
 
+}
+
+
+/*---------- Play Instantly, No Downloads No Installs.  */
+
+
+.Play-Instantly-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.Play-Instantly {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.Play-Gamer-image {
+    background-image: url('../images/Rectangle 55.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Play-Gamer-image img {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------Footer style start here */
+.Footer-container {
+    background-color: #0B0223;
+
+}
+
+.Footer-info {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+
+.logo-footer {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 66px;
+}
+
+.Gamer-footer {
+    color: #FFF;
+}
+
+.footer-menu ul {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-menu ul li {
+    list-style: none;
+}
+
+.footer-menu ul li a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer-menu-two ul {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-menu-two ul li {
+    list-style: none;
+}
+
+.footer-menu-two ul li a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.coppy-write {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 130px;
+}
+.Social-Icon{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 65px 0;
+}
+.twitter img{
+    height: 45px;
+    width: 45px;
 }
 
 /*----------- Medium Device Responsive style start here */
@@ -299,7 +415,7 @@ body {
     }
 
     /* Online Games Funny Videos */
-    .card{
+    .card {
         grid-template-columns: repeat(1, 1fr);
     }
 }
