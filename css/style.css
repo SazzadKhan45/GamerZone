@@ -301,7 +301,13 @@ body {
     gap: 16px;
     align-items: center;
 }
-
+.apps-info :hover{
+    color: #F948B2;
+}
+.gaming-apps :hover{
+    border: 2px solid #F948B2;
+    border-radius: 20px;
+}
 /* ----------Footer style start here */
 .Footer-container {
     background-color: #0B0223;
