@@ -8,10 +8,6 @@ body {
 
 }
 
-.container {
-    width: 1370px;
-    margin: 0 auto;
-}
 
 /*---------- Common style start here-------------- */
 
@@ -266,6 +262,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
+    height: 650px;
+    align-items: center;
 }
 
 .Play-Gamer-image {
@@ -274,19 +272,53 @@ body {
     background-size: cover;
 }
 
-.Play-Gamer-image img {}
+.Play-Gamer-image img {
+    width: 218px;
+    height: 265px;
+    padding-top: 450px;
+    margin-left: -100px;
+    margin-bottom: -80px;
+}
+.mt-top{
+    margin-top: 190px;
+}
+.Play-Gamer-image-two{
+    background-image: url('../images/Rectangle\ 67.png');
+    height: 650px;
+}
+
+.Play-Gamer-image-two img {
+    width: 218px;
+    height: 265px;
+    padding-top: 450px;
+    margin-left: 350px;
+    margin-bottom: -50px;
+    margin-right: -100px;
+    border-radius: 20px;
+}
 
 
+/* ----------- Other games apps style start here */
+.Other-gaming-aps {
+    width: 80%;
+    margin: 0 auto;
+}
 
+.gaming-apps {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    grid-auto-rows: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
 
-
-
-
-
-
-
-
-
+.apps-info {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
 
 /* ----------Footer style start here */
 .Footer-container {
@@ -297,8 +329,7 @@ body {
 .Footer-info {
     width: 80%;
     margin: 0 auto;
-    display: grid;
-    justify-content: center;
+    padding: 25px;
 }
 
 .logo-footer {
@@ -315,8 +346,10 @@ body {
 }
 
 .footer-menu ul {
-    display: flex;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-between;
+    padding: 0 100px;
 }
 
 .footer-menu ul li {
@@ -331,8 +364,11 @@ body {
 }
 
 .footer-menu-two ul {
-    display: flex;
-    gap: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    padding: 0 100px;
 }
 
 .footer-menu-two ul li {
@@ -348,16 +384,21 @@ body {
 .coppy-write {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    margin-top: 18px;
+    margin-top: 30px;
     margin-bottom: 130px;
 }
-.Social-Icon{
-    display: flex;
-    gap: 40px;
+
+.Social-Icon {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
     justify-content: center;
+    text-align: center;
     margin: 65px 0;
+    padding: 0 270px;
 }
-.twitter img{
+
+.twitter img {
     height: 45px;
     width: 45px;
 }
@@ -417,5 +458,50 @@ body {
     /* Online Games Funny Videos */
     .card {
         grid-template-columns: repeat(1, 1fr);
+    }
+    /* Gaming Post style start here */
+    .Play-Instantly{
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 450px;
+        width: 80%;
+        width: 450px;
+    }
+
+
+    /* -------- Gaming apps style start here */
+    .gaming-apps {
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 50px;
+    }
+    .apps-info img{
+        width: 30px;
+        height: 30px;
+    }
+    .game-name{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    /* Footer style start here */
+    .Footer-info {
+        padding: 10px 0;
+    }
+
+    .footer-menu ul {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 0 20px;
+    }
+
+    .Social-Icon {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-around;
+        padding: 0 10px;
+    }
+
+    .footer-menu-two ul {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        padding: 0 25px;
     }
 }
